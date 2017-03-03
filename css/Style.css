@@ -1,0 +1,90 @@
+/*Configuracion general del navegador*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #9E9E9E;
+}
+
+#encabezado{
+    background: #FF9800;
+    height: 220px;
+    text-align: center;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: 250px 170px;
+}
+
+.areaPrincipal{
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.piePagina{
+    width: 100%;
+    height: 100px;
+    background: #FF9800;
+    bottom: 0;
+    color: white;
+    position: fixed;
+    left: 0px;
+}
+
+/*configuracion de menu*/
+#menu{
+    height: 40px;
+    position: relative;
+    top: 180px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111111;
+}
+
+#datos{
+    width: 80%;
+    background-color: #081B60;
+    height: 600px;
+    margin: auto;
+    opacity: 1;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 20px;
+}
+
+p.descripcion{
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 16px;
+    color: yellow;
+}
